@@ -99,10 +99,10 @@
     color: hsl(277, 64%, 61%);
 }
 
-@media only screen and (max-width:375px){
+@media (max-width:600px){
     .container{
-        margin-top: 50px;
-        margin-bottom: 30px;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
     }
 
     .hero{
@@ -110,9 +110,7 @@
         order: 1;
         border-radius: 10px 10px 0 0;
         background: url(images/image-header-mobile.jpg)no-repeat;
-        background-size: cover;
-        flex-grow: 1;
-        flex-basis: 0;
+        background-size: cover; 
     }
 
     .main-content{
@@ -120,7 +118,6 @@
         border-radius: 0 0 10px 10px;
         text-align: center;
         padding: 1rem;
-        flex-grow: 0;
     }
     
     .main-heading{
